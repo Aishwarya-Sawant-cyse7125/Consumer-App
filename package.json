@@ -1,0 +1,26 @@
+{
+  "name": "consumer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolwynquadras/consumer-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolwynquadras/consumer-app/issues"
+  },
+  "homepage": "https://github.com/rolwynquadras/consumer-app#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.5.0",
+    "cors": "^2.8.5",
+    "node-rdkafka": "^2.14.0",
+    "simple-node-logger": "^21.8.12",
+    "winston": "^3.8.2"
+  }
+}
